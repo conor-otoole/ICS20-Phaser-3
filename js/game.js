@@ -45,5 +45,3 @@ game.scene.add("menuScene", menuScene);
 
 // start title
 game.scene.start("splashScene");
-
-

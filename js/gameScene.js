@@ -7,23 +7,21 @@
 // This is the Game scene
 
 class GameScene extends Phaser.Scene {
-  constructor () {
-    super({ key: 'gameScene' })
+  constructor() {
+    super({ key: "gameScene" });
   }
 
-init (data) {
-  this.cameras.main.setBackgroundColor('#ffffff')
+  init(data) {
+    this.cameras.main.setBackgroundColor("#ffffff");
+  }
+
+  preload() {
+    console.log("Game Scene");
+  }
+
+  create(data) {}
+
+  update(time, delta) {}
 }
 
-  preload () {
-    console.log('Game Scene')
-  }
-
-  create (data) {
-  }
-
-  update (time, delta) {
-  }
-}
-
-export default GameScene
+export default GameScene;
